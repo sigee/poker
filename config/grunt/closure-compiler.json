@@ -1,0 +1,16 @@
+{
+  "build": {
+    "files": {
+      "build/script.min.js": [
+        "src/**/*.js"
+      ]
+    },
+    "options": {
+      "compilation_level": "ADVANCED",
+      "language_in": "ECMASCRIPT6_STRICT",
+      "language_out": "ECMASCRIPT5_STRICT",
+      "warning_level": "VERBOSE",
+      "create_source_map": "build/script.min.js.map"
+    }
+  }
+}

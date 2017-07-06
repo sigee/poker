@@ -1,0 +1,13 @@
+{
+  "client": {
+    "src": [
+      "src/**/*.js"
+    ],
+    "directives": {
+      "white": true,
+      "nomen": true,
+      "browser": true,
+      "predef": {}
+    }
+  }
+}

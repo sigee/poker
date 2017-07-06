@@ -1,0 +1,18 @@
+{
+  "coverage": {
+    "src": "test/unit",
+    "options": {
+      "mask": "**/*Test.js",
+      "coverage": true,
+      "root": "./src",
+      "recursive": true,
+      "mochaOptions": [
+        "--timeout", "200",
+        "--reporter", "dot",
+        "./test/unit/testSuiteBootstrap.js"
+      ],
+      "istanbulOptions": ["--include-all-sources"],
+      "print": "summary"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "default": {
+    "options": {
+      "coverageFolder": "coverage*",
+      "check": {
+        "statements": 0,
+        "branches": 0,
+        "lines": 0,
+        "functions": 0
+      }
+    }
+  }
+}

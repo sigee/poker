@@ -1,0 +1,13 @@
+{
+  "dist": {
+    "src": [
+      "src/**/*.js"
+    ],
+    "options": {
+      "template": "node_modules/ink-docstrap/template",
+      "configure": "config/jsdoc.json",
+      "destination": "doc",
+      "readme": "README.md"
+    }
+  }
+}
